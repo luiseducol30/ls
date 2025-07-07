@@ -755,3 +755,155 @@ java.lang.IllegalArgumentException: Null phantom checkout, object is being close
 [07Jul2025 17:30:13.009] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -12.249752821273432,0.35177155987699393,13.608452097926602
 [07Jul2025 17:30:14.994] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -12.727297101049317,0.1334553120382509,13.146601223842026
 [07Jul2025 17:30:18.437] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -5.824140597026144,-16.393635355840615,5.358000171538151
+[07Jul2025 17:30:21.482] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -3.194712122976398,-17.035854401699737,2.4389598658235627
+[07Jul2025 17:30:25.838] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -12.025935720068901,6.586038926121631,11.964985273422826
+[07Jul2025 17:30:27.458] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -10.239833126471694,12.467808166852365,9.08894135311948
+[07Jul2025 17:30:30.851] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -10.032645241276896,12.666597935772415,8.925999776149638
+[07Jul2025 17:30:33.427] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -8.295598742477068,14.952056298282457,7.832326564725008
+[07Jul2025 17:30:37.561] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -8.672088585417896,12.93216375809871,8.996287685689822
+[07Jul2025 17:30:39.638] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -9.164657233557136,11.091000956553103,11.02492637197156
+[07Jul2025 17:30:41.410] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -9.71109422229938,8.825304813412913,11.680552656739565
+[07Jul2025 17:30:41.526] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 49663ms or 993 ticks behind
+[07Jul2025 17:30:42.769] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -10.024067410342923,8.484247895764042,12.056997827959094
+[07Jul2025 17:30:44.182] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -10.538159091472153,8.161812590529337,12.681962365210893
+[07Jul2025 17:30:46.018] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -10.655374232062059,7.733310789328414,12.816336793535811
+[07Jul2025 17:30:46.906] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -10.38783688926651,7.247667297820669,12.500657631298964
+[07Jul2025 17:30:48.246] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -10.684750333222382,7.691582692345719,12.851670513213321
+[07Jul2025 17:30:49.724] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -10.678404886692078,7.702195228081678,12.84403817876182
+[07Jul2025 17:30:50.708] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -10.685590475106892,7.692550501257301,12.852681040024436
+[07Jul2025 17:30:51.661] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -10.381560725201325,7.266474457173047,12.490658716822963
+[07Jul2025 17:30:53.819] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -10.375727689720406,7.368805971779977,12.479976550175707
+[07Jul2025 17:30:55.179] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -10.383876786233031,7.317472707526065,12.49304487477275
+[07Jul2025 17:30:56.099] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -10.374064953273319,7.399529287621647,12.47797660255901
+[07Jul2025 17:30:58.908] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -10.568005534434178,7.7436900806103495,12.711249292185585
+[07Jul2025 17:31:01.303] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -10.520605460719707,7.903868289099705,12.654236373888125
+[07Jul2025 17:31:02.868] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -10.520073887953004,7.902937475357817,12.653597575796539
+[07Jul2025 17:31:04.008] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -10.303835528400214,7.665786125686338,12.393504303192458
+[07Jul2025 17:31:04.965] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -10.568005534434178,7.7436900806103495,12.711249292185585
+[07Jul2025 17:31:06.947] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -10.520690482407645,7.904030070389922,12.65433856322079
+[07Jul2025 17:31:08.680] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -10.341457479633391,7.930690294393685,12.43875617209278
+[07Jul2025 17:31:11.192] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -10.475974847190173,7.957899794687876,12.60055468703922
+[07Jul2025 17:31:12.579] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -10.570460887191985,7.6983318681912465,12.71420260261857
+[07Jul2025 17:31:16.433] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -10.518477922237707,7.89971710614401,12.6516772979694
+[07Jul2025 17:31:18.843] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -10.570460887191985,7.6983318681912465,12.71420260261857
+[07Jul2025 17:31:20.451] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -10.414876373992229,7.779181474807103,12.527064781121226
+[07Jul2025 17:31:22.793] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -10.517835799756995,7.8995236641426345,12.65090488733722
+[07Jul2025 17:31:24.140] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -10.568005534434178,7.743690080610463,12.711249292185585
+[07Jul2025 17:31:26.285] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -10.566603563469016,7.769598213781592,12.709562994578846
+[07Jul2025 17:31:27.543] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -10.568005534434178,7.7436900806103495,12.711249292185585
+[07Jul2025 17:31:28.556] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -10.568005534434178,7.7436900806103495,12.711249292185585
+[07Jul2025 17:31:30.623] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -10.303835528400214,7.665786125686509,12.393504303192458
+[07Jul2025 17:31:33.720] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -10.568005534434178,7.7436900806103495,12.711249292185585
+[07Jul2025 17:31:34.915] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -10.392144274846487,7.808674661018813,12.499722499908785
+[07Jul2025 17:31:37.693] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -10.303835528400214,7.665786125686509,12.393504303192458
+[07Jul2025 17:31:38.756] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -10.567802002137796,7.747467513487891,12.711004482533099
+[07Jul2025 17:31:41.239] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -10.520761186378877,7.90417801777096,12.65442355682626
+[07Jul2025 17:31:42.650] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -10.303835528400214,7.665786125686509,12.393504303192458
+[07Jul2025 17:31:51.864] [Server Watchdog/ERROR] [net.minecraft.server.dedicated.ServerWatchdog/FATAL]: A single server tick took 60.00 seconds (should be max 0.05)
+[07Jul2025 17:31:51.866] [Server Watchdog/ERROR] [net.minecraft.server.dedicated.ServerWatchdog/FATAL]: Considering it to be crashed, server will forcibly shutdown.
+[07Jul2025 17:31:52.684] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -12.43782132854085,-3.0496853426051302,12.644889566533038
+[07Jul2025 17:31:52.803] [Server Watchdog/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 961f5565-018c-43a8-9326-c7f346f7202e
+[07Jul2025 17:31:52.862] [Server Watchdog/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 9cc2b465-5ec9-4e14-9ca2-28a33aaad69c
+[07Jul2025 17:31:52.863] [Server Watchdog/ERROR] [net.minecraft.server.dedicated.ServerWatchdog/]: This crash report has been saved to: /workspaces/ls/servidor_minecraft/./crash-reports/crash-2025-07-07_17.31.52-server.txt
+[07Jul2025 17:31:53.912] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/]: Unloading level [minecraft:the_end].
+[07Jul2025 17:31:53.913] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing world gen queue
+[07Jul2025 17:31:53.918] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing WorldGenerationQueue...
+[07Jul2025 17:31:53.918] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Awaiting world generator thread pool termination...
+[07Jul2025 17:31:53.918] [Server thread/WARN] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
+[07Jul2025 17:31:53.918] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/]: BatchGenerator shutting down...
+[07Jul2025 17:31:53.918] [Server thread/INFO] [LodWorldGen/]: BatchGenerationEnvironment shutting down...
+[07Jul2025 17:31:53.918] [Server thread/INFO] [LodWorldGen/]: Canceling in progress generation event futures...
+[07Jul2025 17:31:53.918] [Server thread/INFO] [LodWorldGen/]: BatchGenerationEnvironment shutdown complete.
+[07Jul2025 17:31:53.919] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Finished closing WorldGenerationQueue
+[07Jul2025 17:31:54.119] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{3akfin2umtlgu@minecraft:the_end}].
+[07Jul2025 17:31:54.119] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{3akfin2umtlgu@minecraft:the_end}].
+[07Jul2025 17:31:54.119] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Closing database connection: [jdbc:dh_sqlite:./world/DIM1/data/DistantHorizons.sqlite]...
+[07Jul2025 17:31:54.119] [DH-Parent Update Queue [minecraft:the_end] Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Update thread [DH-Parent Update Queue [minecraft:the_end] Thread[0]] terminated.
+[07Jul2025 17:31:54.123] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Finished closing database connection: [jdbc:dh_sqlite:./world/DIM1/data/DistantHorizons.sqlite]
+[07Jul2025 17:31:54.123] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}].
+[07Jul2025 17:31:54.324] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{3akfin2umtlgu@minecraft:the_end}].
+[07Jul2025 17:31:54.324] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{3akfin2umtlgu@minecraft:the_end}].
+[07Jul2025 17:31:54.324] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}].
+[07Jul2025 17:31:54.324] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/]: Unloading level [deeperdarker:otherside].
+[07Jul2025 17:31:54.324] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing world gen queue
+[07Jul2025 17:31:54.325] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing WorldGenerationQueue...
+[07Jul2025 17:31:54.325] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Awaiting world generator thread pool termination...
+[07Jul2025 17:31:54.325] [Server thread/WARN] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
+[07Jul2025 17:31:54.325] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/]: BatchGenerator shutting down...
+[07Jul2025 17:31:54.325] [Server thread/INFO] [LodWorldGen/]: BatchGenerationEnvironment shutting down...
+[07Jul2025 17:31:54.325] [Server thread/INFO] [LodWorldGen/]: Canceling in progress generation event futures...
+[07Jul2025 17:31:54.325] [Server thread/INFO] [LodWorldGen/]: BatchGenerationEnvironment shutdown complete.
+[07Jul2025 17:31:54.325] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Finished closing WorldGenerationQueue
+[07Jul2025 17:31:54.526] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{3akfin2umtlgu@deeperdarker:otherside}].
+[07Jul2025 17:31:54.526] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{3akfin2umtlgu@deeperdarker:otherside}].
+[07Jul2025 17:31:54.526] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Closing database connection: [jdbc:dh_sqlite:./world/dimensions/deeperdarker/otherside/data/DistantHorizons.sqlite]...
+[07Jul2025 17:31:54.526] [DH-Parent Update Queue [deeperdarker:otherside] Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Update thread [DH-Parent Update Queue [deeperdarker:otherside] Thread[0]] terminated.
+[07Jul2025 17:31:54.527] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Finished closing database connection: [jdbc:dh_sqlite:./world/dimensions/deeperdarker/otherside/data/DistantHorizons.sqlite]
+[07Jul2025 17:31:54.527] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@deeperdarker:otherside}].
+[07Jul2025 17:31:54.727] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{3akfin2umtlgu@deeperdarker:otherside}].
+[07Jul2025 17:31:54.727] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{3akfin2umtlgu@deeperdarker:otherside}].
+[07Jul2025 17:31:54.728] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@deeperdarker:otherside}].
+[07Jul2025 17:31:54.728] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/]: Unloading level [minecraft:the_nether].
+[07Jul2025 17:31:54.728] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing world gen queue
+[07Jul2025 17:31:54.728] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing WorldGenerationQueue...
+[07Jul2025 17:31:54.728] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Awaiting world generator thread pool termination...
+[07Jul2025 17:31:54.728] [Server thread/WARN] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
+[07Jul2025 17:31:54.728] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/]: BatchGenerator shutting down...
+[07Jul2025 17:31:54.728] [Server thread/INFO] [LodWorldGen/]: BatchGenerationEnvironment shutting down...
+[07Jul2025 17:31:54.728] [Server thread/INFO] [LodWorldGen/]: Canceling in progress generation event futures...
+[07Jul2025 17:31:54.728] [Server thread/INFO] [LodWorldGen/]: BatchGenerationEnvironment shutdown complete.
+[07Jul2025 17:31:54.729] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Finished closing WorldGenerationQueue
+[07Jul2025 17:31:54.929] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{3akfin2umtlgu@minecraft:the_nether}].
+[07Jul2025 17:31:54.929] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{3akfin2umtlgu@minecraft:the_nether}].
+[07Jul2025 17:31:54.929] [DH-Parent Update Queue [minecraft:the_nether] Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Update thread [DH-Parent Update Queue [minecraft:the_nether] Thread[0]] terminated.
+[07Jul2025 17:31:54.929] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Closing database connection: [jdbc:dh_sqlite:./world/DIM-1/data/DistantHorizons.sqlite]...
+[07Jul2025 17:31:55.006] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Finished closing database connection: [jdbc:dh_sqlite:./world/DIM-1/data/DistantHorizons.sqlite]
+[07Jul2025 17:31:55.006] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}].
+[07Jul2025 17:31:55.207] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{3akfin2umtlgu@minecraft:the_nether}].
+[07Jul2025 17:31:55.207] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{3akfin2umtlgu@minecraft:the_nether}].
+[07Jul2025 17:31:55.207] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}].
+[07Jul2025 17:31:55.207] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/]: Unloading level [minecraft:overworld].
+[07Jul2025 17:31:55.207] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing world gen queue
+[07Jul2025 17:31:55.207] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing WorldGenerationQueue...
+[07Jul2025 17:31:55.208] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Awaiting world generator thread pool termination...
+[07Jul2025 17:31:55.208] [Server thread/WARN] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
+[07Jul2025 17:31:55.208] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/]: BatchGenerator shutting down...
+[07Jul2025 17:31:55.208] [Server thread/INFO] [LodWorldGen/]: BatchGenerationEnvironment shutting down...
+[07Jul2025 17:31:55.208] [Server thread/INFO] [LodWorldGen/]: Canceling in progress generation event futures...
+[07Jul2025 17:31:55.208] [Server thread/INFO] [LodWorldGen/]: BatchGenerationEnvironment shutdown complete.
+[07Jul2025 17:31:55.208] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Finished closing WorldGenerationQueue
+[07Jul2025 17:31:55.408] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{3akfin2umtlgu@minecraft:overworld}].
+[07Jul2025 17:31:55.409] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{3akfin2umtlgu@minecraft:overworld}].
+[07Jul2025 17:31:55.409] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Closing database connection: [jdbc:dh_sqlite:./world/data/DistantHorizons.sqlite]...
+[07Jul2025 17:31:55.409] [DH-Parent Update Queue [minecraft:overworld] Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Update thread [DH-Parent Update Queue [minecraft:overworld] Thread[0]] terminated.
+[07Jul2025 17:31:55.438] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Finished closing database connection: [jdbc:dh_sqlite:./world/data/DistantHorizons.sqlite]
+[07Jul2025 17:31:55.439] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}].
+[07Jul2025 17:31:55.639] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{3akfin2umtlgu@minecraft:overworld}].
+[07Jul2025 17:31:55.639] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{3akfin2umtlgu@minecraft:overworld}].
+[07Jul2025 17:31:55.639] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}].
+[07Jul2025 17:31:55.639] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/]: Unloading level [the_bumblezone:the_bumblezone].
+[07Jul2025 17:31:55.639] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing world gen queue
+[07Jul2025 17:31:55.640] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing WorldGenerationQueue...
+[07Jul2025 17:31:55.640] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Awaiting world generator thread pool termination...
+[07Jul2025 17:31:55.640] [Server thread/WARN] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
+[07Jul2025 17:31:55.640] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/]: BatchGenerator shutting down...
+[07Jul2025 17:31:55.640] [Server thread/INFO] [LodWorldGen/]: BatchGenerationEnvironment shutting down...
+[07Jul2025 17:31:55.640] [Server thread/INFO] [LodWorldGen/]: Canceling in progress generation event futures...
+[07Jul2025 17:31:55.640] [Server thread/INFO] [LodWorldGen/]: BatchGenerationEnvironment shutdown complete.
+[07Jul2025 17:31:55.640] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Finished closing WorldGenerationQueue
+[07Jul2025 17:31:55.840] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{3akfin2umtlgu@the_bumblezone:the_bumblezone}].
+[07Jul2025 17:31:55.841] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{3akfin2umtlgu@the_bumblezone:the_bumblezone}].
+[07Jul2025 17:31:55.841] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Closing database connection: [jdbc:dh_sqlite:./world/dimensions/the_bumblezone/the_bumblezone/data/DistantHorizons.sqlite]...
+[07Jul2025 17:31:55.841] [DH-Parent Update Queue [the_bumblezone:the_bumblezone] Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Update thread [DH-Parent Update Queue [the_bumblezone:the_bumblezone] Thread[0]] terminated.
+[07Jul2025 17:31:55.841] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Finished closing database connection: [jdbc:dh_sqlite:./world/dimensions/the_bumblezone/the_bumblezone/data/DistantHorizons.sqlite]
+[07Jul2025 17:31:55.841] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@the_bumblezone:the_bumblezone}].
+[07Jul2025 17:31:56.041] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{3akfin2umtlgu@the_bumblezone:the_bumblezone}].
+[07Jul2025 17:31:56.042] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{3akfin2umtlgu@the_bumblezone:the_bumblezone}].
+[07Jul2025 17:31:56.042] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@the_bumblezone:the_bumblezone}].
+[07Jul2025 17:31:56.042] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/]: Closed DhWorld of type [SERVER_ONLY].
+[07Jul2025 17:31:56.042] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/]: Closed DhWorld of type [SERVER_ONLY].
+[07Jul2025 17:31:56.042] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.util.threading.PriorityTaskPicker/]: Shutting down PriorityTaskPicker thread pool...
+[07Jul2025 17:32:01.043] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Closing all [0] database connections...
+[07Jul2025 17:32:02.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[07Jul2025 17:32:02.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[07Jul2025 17:32:02.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
