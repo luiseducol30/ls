@@ -1,0 +1,11 @@
+{
+  "waystones:plugin": true,
+  "balm:wthit": true,
+  "biomeswevegone:plugin": true,
+  "waila:core": true,
+  "waila:vanilla": true,
+  "waila:harvest": true,
+  "waila:extra": true,
+  "waila:forge": true,
+  "securitycraft:plugin": true
+}

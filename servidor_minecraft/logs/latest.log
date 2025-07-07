@@ -1,0 +1,648 @@
+[07Jul2025 15:54:28.555] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[07Jul2025 15:54:28.558] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[07Jul2025 15:54:29.453] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[07Jul2025 15:54:29.503] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/ls/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[07Jul2025 15:54:29.932] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ls/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[07Jul2025 15:54:29.933] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ls/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[07Jul2025 15:54:29.934] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ls/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[07Jul2025 15:54:29.935] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ls/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[07Jul2025 15:54:30.279] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[07Jul2025 15:54:30.281] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: resourcefullib. Using Mod File: /workspaces/ls/servidor_minecraft/mods/resourcefullib-forge-1.20.1-2.1.29.jar
+[07Jul2025 15:54:30.281] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 27 dependencies adding them to mods collection
+[07Jul2025 15:54:33.294] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[07Jul2025 15:54:33.321] [main/ERROR] [mixin/]: Mixin config fabric-data-attachment-api-v1.mixins.json does not specify "minVersion" property
+[07Jul2025 15:54:33.324] [main/ERROR] [mixin/]: Mixin config fabric-data-attachment-api-v1.client.mixins.json does not specify "minVersion" property
+[07Jul2025 15:54:33.515] [main/ERROR] [mixin/]: Mixin config yacl.mixins.json does not specify "minVersion" property
+[07Jul2025 15:54:33.574] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
+[07Jul2025 15:54:33.577] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[07Jul2025 15:54:33.581] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[07Jul2025 15:54:33.716] [main/INFO] [fpsreducer/]: OptiFine was NOT detected.
+[07Jul2025 15:54:33.718] [main/INFO] [fpsreducer/]: OptiFabric was NOT detected.
+[07Jul2025 15:54:33.745] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 141 options available, 0 override(s) found
+[07Jul2025 15:54:33.765] [main/WARN] [mixin/]: Reference map 'CerbonsAPI-Forge-1.20.1-forge-refmap.json' for cerbons_api.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Jul2025 15:54:33.794] [main/WARN] [mixin/]: Reference map 'inventory_management.refmap.json' for inventorymanagement.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Jul2025 15:54:33.796] [main/WARN] [mixin/]: Reference map 'CHA-S-common-refmap.json' for chas-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Jul2025 15:54:33.855] [main/WARN] [mixin/]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Jul2025 15:54:33.870] [main/WARN] [mixin/]: Reference map 'simplyswords-forge-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
+[07Jul2025 15:54:33.988] [main/INFO] [Puzzles Lib/]: Loading 94 mods:
+	- accessories 1.0.0-beta46+1.20.1
+		|-- fabric_api_base 0.4.31+ef105b4977
+		|-- fabric_data_attachment_api_v1 1.0.0+30ef839e77
+		|-- fabric_entity_events_v1 1.6.0+6274ab9d77
+		\-- fabric_object_builder_api_v1 11.1.3+2174fc8477
+	- addonslib 1.20.1-1.4
+	- alexsmobs 1.22.9
+	- architectury 9.2.14
+	- artifacts 9.5.16
+		\-- expandability 9.0.4
+	- badpackets 0.4.3
+	- balm 7.3.31
+		\-- kuma_api 20.1.10
+	- better_fishing_rods 1.0.0
+	- bettervillage 3.3.1
+	- biomeswevegone 1.5.11
+	- bosses_of_mass_destruction 1.1.2
+	- carryon 2.1.2.7
+		\-- mixinextras 0.2.0-beta.6
+	- cerbons_api 1.1.0
+	- chas 1.20
+	- chat_heads 0.13.18
+	- citadel 2.6.1
+	- cloth_config 11.1.136
+	- collective 8.3
+	- comforts 6.4.0+1.20.1
+		\-- spectrelib 0.13.15+1.20.1
+	- corgilib 4.0.3.4
+	- craftable_elytra_remastered 2.2
+	- creativecore 2.12.32
+	- creeperoverhaul 3.0.2
+	- cupboard 1.20.1-2.7
+	- curios 7.4.0+1.20.1
+		\-- cclayer 0.beta.18
+	- darkmodeeverywhere 1.20.1-1.2.4
+	- deeperdarker 1.3.3
+	- distanthorizons 2.3.2-b
+	- dungeoncrawl 2.3.15
+	- dungeons_arise 2.1.58-1.20.x
+	- dungeons_arise_seven_seas 1.0.2
+	- dynamiclights 1.8.6+mod
+	- easyanvils 8.0.2
+	- easymagic 8.0.1
+	- embeddium 0.3.31+mc1.20.1
+		\-- rubidium 0.7.1
+	- emojiful 4.2.0
+	- entityculling 1.7.4
+	- ferritecore 6.0.1
+	- flib 0.0.15
+	- forge 47.3.7
+	- fpsreducer 1.20-2.5
+	- framework 0.7.15
+	- friendsandfoes 3.0.9
+	- geckolib 4.7.1.3
+	- goblintraders 1.9.3
+	- gpumemleakfix 1.20.1-1.8
+	- hexerei 1.20.1-0.4.2.3
+	- immediatelyfast 1.5.0+1.20.4
+	- incendium 5.3.5
+	- inventorymanagement 1.0.3
+	- jei 15.20.0.112
+	- journeymap 5.10.3
+	- justzoom 2.1.1
+	- konkrete 1.8.0
+	- libraryferret 4.0.0
+	- mace_backport 8.1.7.2
+	- mcwbyg 1.20.1-1.2.1
+	- memoryleakfix 1.1.4
+	- minecraft 1.20.1
+	- morebows 1.0.13
+	- mr_dungeons_andtaverns 3.0.3.f
+	- mythicmounts 20.1-7.4.2-forge
+	- ohthetreesyoullgrow 1.3.13
+	- orcz 0.82
+	- playerrevive 2.0.31
+	- puzzleslib 8.1.32
+		\-- puzzlesaccessapi 20.1.1
+	- resourcefulconfig 2.1.3
+	- resourcefullib 2.1.29
+	- securitycraft 1.10.0.1
+	- simplyswords 1.56.0-1.20.1
+	- smoothchunk 1.20.1-4.1
+	- sophisticatedbackpacks 3.23.19.1251
+	- sophisticatedcore 1.2.69.1005
+	- sound_physics_remastered 1.20.1-1.4.13
+	- terrablender 3.0.1.10
+	- terralith 2.5.4
+	- the_bumblezone 7.8.0+1.20.1-forge
+		\-- athena 3.1.1
+	- tlskincape 1.32
+	- tombstone 8.9.6
+	- trapcraft 2.10.2
+	- voicechat 1.20.1-2.5.30
+	- waystones 14.1.13
+	- wthit 8.16.3
+		\-- waila 8.16.3
+	- yet_another_config_lib_v3 3.6.6+1.20.1-forge
+[07Jul2025 15:54:34.358] [main/WARN] [mixin/]: Error loading class: com/aetherteam/aether/inventory/menu/AccessoriesMenu (java.lang.ClassNotFoundException: com.aetherteam.aether.inventory.menu.AccessoriesMenu)
+[07Jul2025 15:54:35.023] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/LevelRenderer for invalid dist DEDICATED_SERVER
+[07Jul2025 15:54:35.023] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/LevelRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/LevelRenderer for invalid dist DEDICATED_SERVER)
+[07Jul2025 15:54:35.024] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.LevelRenderer was not found accessories-common.mixins.json:LevelRendererAccessor
+[07Jul2025 15:54:35.068] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
+[07Jul2025 15:54:35.069] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin
+[07Jul2025 15:54:36.195] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
+[07Jul2025 15:54:36.195] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
+[07Jul2025 15:54:36.196] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
+[07Jul2025 15:54:36.200] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
+[07Jul2025 15:54:36.200] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
+[07Jul2025 15:54:36.200] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
+[07Jul2025 15:54:36.202] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
+[07Jul2025 15:54:36.202] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
+[07Jul2025 15:54:36.207] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[07Jul2025 15:54:36.207] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[07Jul2025 15:54:36.389] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[07Jul2025 15:54:40.045] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=2 on accessories-common.mixins.json:NbtCompoundMixin::handler$zel000$adjustCheckForListVariants exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[07Jul2025 15:54:41.063] [main/WARN] [mixin/]: Method overwrite conflict for scheduleRandomTick in corgilib-common.mixins.json:chunk.MixinChunkAccess, previously written by dev.corgitaco.ohthetreesyoullgrow.mixin.chunk.MixinChunkAccess. Skipping method.
+[07Jul2025 15:54:41.063] [main/WARN] [mixin/]: Method overwrite conflict for getScheduledRandomTicks in corgilib-common.mixins.json:chunk.MixinChunkAccess, previously written by dev.corgitaco.ohthetreesyoullgrow.mixin.chunk.MixinChunkAccess. Skipping method.
+[07Jul2025 15:54:42.491] [modloading-worker-0/INFO] [fr.samlegamer.mcwbyg.McwByg/]: Macaw's Oh the Biomes You'll Go Loading...
+[07Jul2025 15:54:42.579] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for easyanvils:main
+[07Jul2025 15:54:42.603] [modloading-worker-0/INFO] [dynamiclights/]: [Dynamic Lights] Registering server started event ...
+[07Jul2025 15:54:42.745] [modloading-worker-0/INFO] [fr.samlegamer.mcwbyg.McwByg/]: Macaw's Oh the Biomes You'll Go Is Charged !
+[07Jul2025 15:54:43.216] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[07Jul2025 15:54:43.216] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[07Jul2025 15:54:43.327] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 8.3.
+[07Jul2025 15:54:43.697] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[07Jul2025 15:54:43.726] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[07Jul2025 15:54:43.810] [modloading-worker-0/INFO] [inventorymanagement/]: AutoRefillEvents registered
+[07Jul2025 15:54:43.854] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for easymagic:main
+[07Jul2025 15:54:43.869] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[07Jul2025 15:54:43.882] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[07Jul2025 15:54:44.055] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.15...
+[07Jul2025 15:54:44.113] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[07Jul2025 15:54:44.123] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[07Jul2025 15:54:44.124] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[07Jul2025 15:54:44.128] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[07Jul2025 15:54:44.130] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[07Jul2025 15:54:44.131] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[07Jul2025 15:54:44.135] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[07Jul2025 15:54:44.442] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[07Jul2025 15:54:44.443] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[07Jul2025 15:54:45.012] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone items
+[07Jul2025 15:54:45.196] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Blocks
+[07Jul2025 15:54:45.260] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing YACLConfig from '/workspaces/ls/servidor_minecraft/config/yacl.json5'
+[07Jul2025 15:54:45.300] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Wood
+[07Jul2025 15:54:45.308] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Block Entities
+[07Jul2025 15:54:45.309] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Entities
+[07Jul2025 15:54:45.310] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Creative Tabs
+[07Jul2025 15:54:45.310] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Sounds
+[07Jul2025 15:54:45.311] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Block Predicate
+[07Jul2025 15:54:45.314] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone State Providers
+[07Jul2025 15:54:45.328] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[07Jul2025 15:54:45.338] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Tree Decorators
+[07Jul2025 15:54:45.375] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[07Jul2025 15:54:45.378] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Custom Features
+[07Jul2025 15:54:45.382] [modloading-worker-0/WARN] [de.keksuccino.justzoom.JustZoom/]: [JUST ZOOM] Disabling 'Just Zoom' since it's a client-side mod and current environment is server!
+[07Jul2025 15:54:45.387] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Structure Pieces
+[07Jul2025 15:54:45.391] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Custom Structure Types
+[07Jul2025 15:54:45.395] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Configured Features
+[07Jul2025 15:54:45.416] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Creating and Registering Overworld Vegetation Configured Features
+[07Jul2025 15:54:45.523] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Tree Configured Features
+[07Jul2025 15:54:45.525] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Creating and Registering Vanilla Configured Features
+[07Jul2025 15:54:45.535] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes You'll Go Overworld Configured Features
+[07Jul2025 15:54:45.542] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Placed Features
+[07Jul2025 15:54:45.555] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Creating and Registering Overworld Tree Placed Features
+[07Jul2025 15:54:45.571] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Creating and Registering Overworld Vegetation Placed Features
+[07Jul2025 15:54:45.573] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Creating and Registering Vanilla Placed Features
+[07Jul2025 15:54:45.574] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Custom Surface Rules
+[07Jul2025 15:54:45.589] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Template Pools
+[07Jul2025 15:54:45.608] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biome's We've Gone Village Template Pools
+[07Jul2025 15:54:45.609] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Poi Types
+[07Jul2025 15:54:45.610] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Villager Professions
+[07Jul2025 15:54:45.611] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Custom Structure Processors
+[07Jul2025 15:54:49.296] [modloading-worker-0/INFO] [dynamiclights/]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
+[07Jul2025 15:54:49.297] [modloading-worker-0/INFO] [com.gpumemleakfix.Gpumemleakfix/]: gpumemleakfix mod initialized
+[07Jul2025 15:54:49.430] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
+[07Jul2025 15:54:49.456] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
+[07Jul2025 15:54:49.524] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easyanvils] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/easyanvils.json
+[07Jul2025 15:54:49.535] [modloading-worker-0/INFO] [CorgiLib/]: Initializing network...
+[07Jul2025 15:54:49.553] [modloading-worker-0/INFO] [CorgiLib/]: Initialized network!
+[07Jul2025 15:54:49.577] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[07Jul2025 15:54:49.596] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 1 plugin(s)
+[07Jul2025 15:54:49.596] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[07Jul2025 15:54:49.618] [modloading-worker-0/INFO] [Sound Physics - General/]: Initializing Simple Voice Chat integration
+[07Jul2025 15:54:49.618] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 1 plugin(s)
+[07Jul2025 15:54:49.622] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Registering events for 'sound_physics_remastered'
+[07Jul2025 15:54:49.730] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easyanvils] Found status: UP_TO_DATE Current: 8.0.2 Target: null
+[07Jul2025 15:54:49.731] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamiclights] Starting version check at https://api.modrinth.com/updates/7YjclEGc/forge_updates.json?forge=only
+[07Jul2025 15:54:49.755] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[07Jul2025 15:54:49.755] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[07Jul2025 15:54:49.755] [main/INFO] [terrablender/]: Registered region hexerei:overworld to index 1 for type OVERWORLD
+[07Jul2025 15:54:49.798] [main/INFO] [journeymap/]: Initializing Packet Registries
+[07Jul2025 15:54:49.994] [main/INFO] [terrablender/]: Registered region biomeswevegone:region_0 to index 2 for type OVERWORLD
+[07Jul2025 15:54:49.994] [main/INFO] [terrablender/]: Registered region biomeswevegone:region_1 to index 3 for type OVERWORLD
+[07Jul2025 15:54:49.994] [main/INFO] [terrablender/]: Registered region biomeswevegone:region_2 to index 4 for type OVERWORLD
+[07Jul2025 15:54:49.995] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamiclights] Found status: UP_TO_DATE Current: 1.8.6+mod Target: null
+[07Jul2025 15:54:49.995] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [morebows] Starting version check at https://nerdthened.github.io/More-bows/update-modern.json
+[07Jul2025 15:54:50.017] [modloading-worker-0/INFO] [DistantHorizons-AbstractModInitializer/]: Initializing Distant Horizons server.
+[07Jul2025 15:54:50.072] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [morebows] Found status: UP_TO_DATE Current: 1.0.13 Target: null
+[07Jul2025 15:54:50.073] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [trapcraft] Starting version check at https://www.dropbox.com/s/raw/pzo9jfvjlq1obvh/version-trapcraft.json
+[07Jul2025 15:54:50.265] [modloading-worker-0/INFO] [DistantHorizons-AbstractModInitializer/]: Distant Horizons, Version: 2.3.2-b
+[07Jul2025 15:54:50.294] [modloading-worker-0/INFO] [DistantHorizons-AbstractModInitializer/]: Distant Horizons server Initialized.
+[07Jul2025 15:54:50.438] [main/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:core at mcp.mobius.waila.plugin.core.CoreCommonPlugin
+[07Jul2025 15:54:50.447] [main/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:vanilla at mcp.mobius.waila.plugin.vanilla.VanillaCommonPlugin
+[07Jul2025 15:54:50.461] [main/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:harvest at mcp.mobius.waila.plugin.harvest.HarvestCommonPlugin
+[07Jul2025 15:54:50.462] [main/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:forge at mcp.mobius.waila.plugin.forge.ForgeCommonPlugin
+[07Jul2025 15:54:50.463] [main/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing plugin waystones:plugin at net.blay09.mods.waystones.compat.WTHITIntegration
+[07Jul2025 15:54:50.465] [main/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin biomeswevegone:plugin at net.potionstudios.biomeswevegone.compat.wthit.BWGWTHITPlugin
+[07Jul2025 15:54:50.466] [main/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing plugin securitycraft:plugin at net.geforcemods.securitycraft.compat.hudmods.WTHITDataProvider
+[07Jul2025 15:54:50.467] [main/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:extra at mcp.mobius.waila.plugin.extra.ExtraPlugin
+[07Jul2025 15:54:50.493] [main/INFO] [mcp.mobius.waila.config.PluginConfig/]: [WTHIT] Plugin config reloaded
+[07Jul2025 15:54:50.728] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [trapcraft] Found status: BETA Current: 2.10.2 Target: null
+[07Jul2025 15:54:50.728] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Starting version check at https://api.modrinth.com/updates/tpehi7ww/forge_updates.json
+[07Jul2025 15:54:50.818] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Found status: OUTDATED Current: 3.0.3.f Target: 3.0.3.f+mod
+[07Jul2025 15:54:50.818] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[07Jul2025 15:54:50.830] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: OUTDATED Current: 8.9.6 Target: 9.0.1
+[07Jul2025 15:54:50.830] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easymagic] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/easymagic.json
+[07Jul2025 15:54:50.844] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easymagic] Found status: UP_TO_DATE Current: 8.0.1 Target: null
+[07Jul2025 15:54:50.844] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
+[07Jul2025 15:54:51.027] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23266!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23266!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[07Jul2025 15:54:51.030] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[07Jul2025 15:54:51.119] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
+[07Jul2025 15:54:51.120] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[07Jul2025 15:54:51.130] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 20.1.1 Target: null
+[07Jul2025 15:54:51.130] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[07Jul2025 15:54:51.275] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[07Jul2025 15:54:51.275] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[07Jul2025 15:54:51.754] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: OUTDATED Current: 1.20.1-2.5.30 Target: 1.20.1-2.5.33
+[07Jul2025 15:54:51.759] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
+[07Jul2025 15:54:51.859] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: AHEAD Current: 1.20.1-1.4.13 Target: null
+[07Jul2025 15:54:51.860] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[07Jul2025 15:54:52.023] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.10.0.1 Target: null
+[07Jul2025 15:54:52.023] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[07Jul2025 15:54:52.042] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 8.1.32 Target: null
+[07Jul2025 15:54:58.155] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[07Jul2025 15:54:58.382] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: bosses_of_mass_destruction:obsidilith_rune Expected: 5503 Got: 7054
+[07Jul2025 15:54:58.382] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: bosses_of_mass_destruction:void_blossom Expected: 5504 Got: 7055
+[07Jul2025 15:54:58.382] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: bosses_of_mass_destruction:vine_wall Expected: 5505 Got: 7056
+[07Jul2025 15:54:58.382] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: bosses_of_mass_destruction:obsidilith_end_frame Expected: 5506 Got: 7057
+[07Jul2025 15:54:58.382] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: bosses_of_mass_destruction:gauntlet_blackstone Expected: 5507 Got: 7058
+[07Jul2025 15:54:58.383] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: bosses_of_mass_destruction:sealed_blackstone Expected: 5508 Got: 7059
+[07Jul2025 15:54:58.383] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: bosses_of_mass_destruction:chiseled_stone_altar Expected: 5509 Got: 7060
+[07Jul2025 15:54:58.383] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: bosses_of_mass_destruction:mob_ward Expected: 5510 Got: 7061
+[07Jul2025 15:54:58.383] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: bosses_of_mass_destruction:monolith_block Expected: 5511 Got: 7062
+[07Jul2025 15:54:58.383] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: bosses_of_mass_destruction:levitation_block Expected: 5512 Got: 7063
+[07Jul2025 15:54:58.383] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: bosses_of_mass_destruction:void_blossom_block Expected: 5513 Got: 7064
+[07Jul2025 15:54:58.383] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: bosses_of_mass_destruction:void_lily Expected: 5514 Got: 7065
+[07Jul2025 15:54:58.386] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bosses_of_mass_destruction:soul_star Expected: 6354 Got: 7868
+[07Jul2025 15:54:58.386] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bosses_of_mass_destruction:ancient_anima Expected: 6355 Got: 7869
+[07Jul2025 15:54:58.386] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bosses_of_mass_destruction:blazing_eye Expected: 6356 Got: 7870
+[07Jul2025 15:54:58.387] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bosses_of_mass_destruction:obsidian_heart Expected: 6357 Got: 7871
+[07Jul2025 15:54:58.387] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bosses_of_mass_destruction:earthdive_spear Expected: 6358 Got: 7872
+[07Jul2025 15:54:58.387] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bosses_of_mass_destruction:void_thorn Expected: 6359 Got: 7873
+[07Jul2025 15:54:58.387] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bosses_of_mass_destruction:crystal_fruit Expected: 6360 Got: 7874
+[07Jul2025 15:54:58.387] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bosses_of_mass_destruction:charged_ender_pearl Expected: 6361 Got: 7875
+[07Jul2025 15:54:58.387] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bosses_of_mass_destruction:brimstone_nectar Expected: 6362 Got: 7876
+[07Jul2025 15:54:58.387] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bosses_of_mass_destruction:obsidilith_rune Expected: 6363 Got: 7877
+[07Jul2025 15:54:58.387] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bosses_of_mass_destruction:chiseled_stone_altar Expected: 6364 Got: 7878
+[07Jul2025 15:54:58.387] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bosses_of_mass_destruction:void_blossom Expected: 6365 Got: 7879
+[07Jul2025 15:54:58.388] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bosses_of_mass_destruction:vine_wall Expected: 6366 Got: 7880
+[07Jul2025 15:54:58.388] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bosses_of_mass_destruction:obsidilith_end_frame Expected: 6367 Got: 7881
+[07Jul2025 15:54:58.388] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bosses_of_mass_destruction:gauntlet_blackstone Expected: 6368 Got: 7882
+[07Jul2025 15:54:58.388] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bosses_of_mass_destruction:sealed_blackstone Expected: 6369 Got: 7883
+[07Jul2025 15:54:58.388] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bosses_of_mass_destruction:mob_ward Expected: 6370 Got: 7884
+[07Jul2025 15:54:58.388] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bosses_of_mass_destruction:monolith_block Expected: 6371 Got: 7885
+[07Jul2025 15:54:58.388] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bosses_of_mass_destruction:levitation_block Expected: 6372 Got: 7886
+[07Jul2025 15:54:58.388] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bosses_of_mass_destruction:void_blossom_block Expected: 6373 Got: 7887
+[07Jul2025 15:54:58.389] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: bosses_of_mass_destruction:void_lily Expected: 6374 Got: 7888
+[07Jul2025 15:54:58.389] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:gauntlet_hurt Expected: 1858 Got: 1942
+[07Jul2025 15:54:58.389] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:gauntlet_death Expected: 1859 Got: 1943
+[07Jul2025 15:54:58.390] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:gauntlet_idle Expected: 1860 Got: 1944
+[07Jul2025 15:54:58.390] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:gauntlet_cast Expected: 1861 Got: 1945
+[07Jul2025 15:54:58.390] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:gauntlet_clink Expected: 1862 Got: 1946
+[07Jul2025 15:54:58.390] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:gauntlet_spin_punch Expected: 1863 Got: 1947
+[07Jul2025 15:54:58.390] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:gauntlet_laser_charge Expected: 1864 Got: 1948
+[07Jul2025 15:54:58.390] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:lich_hurt Expected: 1865 Got: 1949
+[07Jul2025 15:54:58.390] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:lich_death Expected: 1866 Got: 1950
+[07Jul2025 15:54:58.390] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:lich_teleport Expected: 1867 Got: 1951
+[07Jul2025 15:54:58.390] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:blue_fireball_land Expected: 1868 Got: 1952
+[07Jul2025 15:54:58.390] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:comet_shoot Expected: 1869 Got: 1953
+[07Jul2025 15:54:58.391] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:comet_prepare Expected: 1870 Got: 1954
+[07Jul2025 15:54:58.391] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:missile_shoot Expected: 1871 Got: 1955
+[07Jul2025 15:54:58.391] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:missile_prepare Expected: 1872 Got: 1956
+[07Jul2025 15:54:58.391] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:minion_rune Expected: 1873 Got: 1957
+[07Jul2025 15:54:58.391] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:minion_summon Expected: 1874 Got: 1958
+[07Jul2025 15:54:58.391] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:rage_prepare Expected: 1875 Got: 1959
+[07Jul2025 15:54:58.391] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:obsidilith_hurt Expected: 1876 Got: 1960
+[07Jul2025 15:54:58.391] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:obsidilith_death Expected: 1877 Got: 1961
+[07Jul2025 15:54:58.392] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:obsidilith_prepare_attack Expected: 1878 Got: 1962
+[07Jul2025 15:54:58.392] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:obsidilith_burst Expected: 1879 Got: 1963
+[07Jul2025 15:54:58.392] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:obsidilith_wave Expected: 1880 Got: 1964
+[07Jul2025 15:54:58.392] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:obsidilith_teleport Expected: 1881 Got: 1965
+[07Jul2025 15:54:58.392] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:teleport_prepare Expected: 1882 Got: 1966
+[07Jul2025 15:54:58.392] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:spike Expected: 1883 Got: 1967
+[07Jul2025 15:54:58.392] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:spike_indicator Expected: 1884 Got: 1968
+[07Jul2025 15:54:58.392] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:energy_shield Expected: 1885 Got: 1969
+[07Jul2025 15:54:58.392] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:void_blossom_hurt Expected: 1886 Got: 1970
+[07Jul2025 15:54:58.393] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:void_blossom_fall Expected: 1887 Got: 1971
+[07Jul2025 15:54:58.393] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:void_blossom_spike Expected: 1888 Got: 1972
+[07Jul2025 15:54:58.393] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:void_blossom_burrow Expected: 1889 Got: 1973
+[07Jul2025 15:54:58.393] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:spore_prepare Expected: 1890 Got: 1974
+[07Jul2025 15:54:58.393] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:spore_impact Expected: 1891 Got: 1975
+[07Jul2025 15:54:58.393] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:spore_ball_land Expected: 1892 Got: 1976
+[07Jul2025 15:54:58.393] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:petal_blade Expected: 1893 Got: 1977
+[07Jul2025 15:54:58.393] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:void_spike_indicator Expected: 1894 Got: 1978
+[07Jul2025 15:54:58.393] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:spike_wave_indicator Expected: 1895 Got: 1979
+[07Jul2025 15:54:58.393] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:wave_indicator Expected: 1896 Got: 1980
+[07Jul2025 15:54:58.394] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:soul_star Expected: 1897 Got: 1981
+[07Jul2025 15:54:58.394] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:earthdive_spear_throw Expected: 1898 Got: 1982
+[07Jul2025 15:54:58.394] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:charged_ender_pearl Expected: 1899 Got: 1983
+[07Jul2025 15:54:58.394] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: bosses_of_mass_destruction:brimstone Expected: 1900 Got: 1984
+[07Jul2025 15:54:58.394] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: bosses_of_mass_destruction:lich Expected: 313 Got: 338
+[07Jul2025 15:54:58.394] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: bosses_of_mass_destruction:blue_fireball Expected: 314 Got: 339
+[07Jul2025 15:54:58.395] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: bosses_of_mass_destruction:comet Expected: 315 Got: 340
+[07Jul2025 15:54:58.395] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: bosses_of_mass_destruction:soul_star Expected: 316 Got: 341
+[07Jul2025 15:54:58.395] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: bosses_of_mass_destruction:charged_ender_pearl Expected: 317 Got: 342
+[07Jul2025 15:54:58.395] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: bosses_of_mass_destruction:obsidilith Expected: 318 Got: 343
+[07Jul2025 15:54:58.395] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: bosses_of_mass_destruction:gauntlet Expected: 319 Got: 344
+[07Jul2025 15:54:58.395] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: bosses_of_mass_destruction:void_blossom Expected: 320 Got: 345
+[07Jul2025 15:54:58.395] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: bosses_of_mass_destruction:spore_ball Expected: 321 Got: 346
+[07Jul2025 15:54:58.395] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: bosses_of_mass_destruction:petal_blade Expected: 322 Got: 347
+[07Jul2025 15:55:04.216] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/ls/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23265!/assets/.mcassetsroot' uses unexpected schema
+[07Jul2025 15:55:04.216] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/ls/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23265!/data/.mcassetsroot' uses unexpected schema
+[07Jul2025 15:55:05.234] [main/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
+[07Jul2025 15:55:06.408] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[07Jul2025 15:55:06.610] [Worker-Main-3/WARN] [artifacts.Artifacts/]: Tag entries for curios:tags/items/magic_book.json cleared by tombstone-1.20.1-8.9.6.jar
+[07Jul2025 15:55:07.769] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:simplyswords:grant_book_on_first_join
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'patchouli:guide_book'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23270!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23270!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23265!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[07Jul2025 15:55:12.338] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:alexsmobs:gameplay/seal_reward}.pools[0].entries[0]->{minecraft:gameplay/fishing/junk}.pools[1].condition[1]: Parameters [<parameter minecraft:origin>] are not provided in this context
+[07Jul2025 15:55:12.477] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 17 recipes
+[07Jul2025 15:55:12.645] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4787 advancements
+[07Jul2025 15:55:12.708] [main/INFO] [Curios API/]: Loaded 7 curio slots
+[07Jul2025 15:55:12.716] [main/INFO] [Curios API/]: Loaded 11 curio entities
+[07Jul2025 15:55:12.735] [main/INFO] [Dungeon Crawl/]: Loading data...
+[07Jul2025 15:55:12.968] [main/INFO] [Dungeon Crawl/]: Done.
+[07Jul2025 15:55:18.685] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[07Jul2025 15:55:18.686] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[07Jul2025 15:55:18.686] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[07Jul2025 15:55:18.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[07Jul2025 15:55:18.763] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[07Jul2025 15:55:18.795] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[07Jul2025 15:55:18.895] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07Jul2025 15:55:18.896] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[07Jul2025 15:55:18.896] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07Jul2025 15:55:18.896] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[07Jul2025 15:55:18.915] [Server thread/INFO] [Puzzles Lib/]: Loading server config for easyanvils
+[07Jul2025 15:55:18.916] [Thread-2/INFO] [Puzzles Lib/]: Reloading server config for easyanvils
+[07Jul2025 15:55:18.919] [Thread-2/INFO] [Puzzles Lib/]: Reloading server config for easyanvils
+[07Jul2025 15:55:18.927] [Server thread/INFO] [Puzzles Lib/]: Loading server config for easymagic
+[07Jul2025 15:55:18.927] [Thread-2/INFO] [Puzzles Lib/]: Reloading server config for easymagic
+[07Jul2025 15:55:18.928] [Thread-2/INFO] [Puzzles Lib/]: Reloading server config for easymagic
+[07Jul2025 15:55:18.928] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[07Jul2025 15:55:18.929] [Thread-2/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[07Jul2025 15:55:18.930] [Thread-2/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[07Jul2025 15:55:19.226] [Server thread/INFO] [ConfigBase, distanthorizons/]: Initialising config for DistantHorizons
+[07Jul2025 15:55:19.312] [Server thread/INFO] [ConfigBase, distanthorizons/]: Config for DistantHorizons initialised
+[07Jul2025 15:55:19.325] [Server thread/INFO] [DistantHorizons-AbstractModInitializer/]: Post-Initializing Mod
+[07Jul2025 15:55:19.325] [Server thread/INFO] [DistantHorizons-AbstractModInitializer/]: Mod Post-Initialized
+[07Jul2025 15:55:19.340] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.jar.updater.SelfUpdater/]: Checking for Distant Horizons update
+[07Jul2025 15:55:19.581] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.jar.updater.SelfUpdater/]: Distant Horizons already up to date.
+[07Jul2025 15:55:19.582] [Server thread/INFO] [DistantHorizons-AbstractModInitializer/]: Dedicated server initialized at .
+[07Jul2025 15:55:19.585] [Server thread/INFO] [Framework/]: Loading server configs...
+[07Jul2025 15:55:19.620] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/]: Started [DhServerWorld] of type [SERVER_ONLY].
+[07Jul2025 15:55:19.632] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[07Jul2025 15:55:20.176] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[07Jul2025 15:55:20.176] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[07Jul2025 15:55:20.857] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Attempting to migrate data sources for: [minecraft:overworld]-[./world/data]...
+[07Jul2025 15:55:20.859] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Found [0] data sources that need migration.
+[07Jul2025 15:55:20.883] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: No migration necessary.
+[07Jul2025 15:55:20.903] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}] at [[LocalSaveStructure@(./world/data)]].
+[07Jul2025 15:55:21.847] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.cerbon.bosses_of_mass_destruction.entity.custom.obsidilith.ObsidilithEntity from class com.cerbon.bosses_of_mass_destruction.entity.custom.obsidilith.ObsidilithUtils
+[07Jul2025 15:55:21.879] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.cerbon.bosses_of_mass_destruction.entity.util.BaseEntity from class com.cerbon.bosses_of_mass_destruction.entity.custom.void_blossom.hitbox.NetworkedHitboxManager
+[07Jul2025 15:55:21.903] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.cerbon.bosses_of_mass_destruction.entity.custom.gauntlet.GauntletEntity from class com.cerbon.bosses_of_mass_destruction.projectile.PetalBladeProjectile
+[07Jul2025 15:55:22.315] [DH-ApplyConfigPresetTimer/INFO] [com.seibel.distanthorizons.core.config.eventHandlers.presets.AbstractPresetConfigEventHandler/]: changing preset to: BALANCED
+[07Jul2025 15:55:22.321] [DH-ApplyConfigPresetTimer/INFO] [com.seibel.distanthorizons.core.config.eventHandlers.presets.AbstractPresetConfigEventHandler/]: changing preset to: MEDIUM
+[07Jul2025 15:55:22.325] [DH-ApplyConfigPresetTimer/INFO] [com.seibel.distanthorizons.core.config.eventHandlers.presets.AbstractPresetConfigEventHandler/]: preset active: MEDIUM
+[07Jul2025 15:55:22.339] [DH-ApplyConfigPresetTimer/INFO] [com.seibel.distanthorizons.core.config.eventHandlers.presets.AbstractPresetConfigEventHandler/]: preset active: BALANCED
+[07Jul2025 15:55:24.571] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Attempting to migrate data sources for: [the_bumblezone:the_bumblezone]-[./world/dimensions/the_bumblezone/the_bumblezone/data]...
+[07Jul2025 15:55:24.572] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Found [0] data sources that need migration.
+[07Jul2025 15:55:24.572] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: No migration necessary.
+[07Jul2025 15:55:24.592] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Started DhServerLevel for [Wrapped{ServerLevel[world]@the_bumblezone:the_bumblezone}] at [[LocalSaveStructure@(./world/data;./world/dimensions/the_bumblezone/the_bumblezone/data)]].
+[07Jul2025 15:55:24.619] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Attempting to migrate data sources for: [minecraft:the_end]-[./world/DIM1/data]...
+[07Jul2025 15:55:24.619] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Found [0] data sources that need migration.
+[07Jul2025 15:55:24.620] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: No migration necessary.
+[07Jul2025 15:55:24.634] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}] at [[LocalSaveStructure@(./world/data;./world/dimensions/the_bumblezone/the_bumblezone/data;./world/DIM1/data)]].
+[07Jul2025 15:55:24.663] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Attempting to migrate data sources for: [minecraft:the_nether]-[./world/DIM-1/data]...
+[07Jul2025 15:55:24.663] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Found [0] data sources that need migration.
+[07Jul2025 15:55:24.664] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: No migration necessary.
+[07Jul2025 15:55:24.683] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}] at [[LocalSaveStructure@(./world/data;./world/dimensions/the_bumblezone/the_bumblezone/data;./world/DIM-1/data;./world/DIM1/data)]].
+[07Jul2025 15:55:24.709] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Attempting to migrate data sources for: [deeperdarker:otherside]-[./world/dimensions/deeperdarker/otherside/data]...
+[07Jul2025 15:55:24.710] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Found [0] data sources that need migration.
+[07Jul2025 15:55:24.711] [DH-Full Data Migration Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: No migration necessary.
+[07Jul2025 15:55:24.724] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Started DhServerLevel for [Wrapped{ServerLevel[world]@deeperdarker:otherside}] at [[LocalSaveStructure@(./world/dimensions/deeperdarker/otherside/data;./world/data;./world/dimensions/the_bumblezone/the_bumblezone/data;./world/DIM-1/data;./world/DIM1/data)]].
+[07Jul2025 15:55:24.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[07Jul2025 15:55:29.028] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Jul2025 15:55:29.086] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Jul2025 15:55:29.122] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Jul2025 15:55:29.140] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Jul2025 15:55:29.141] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Jul2025 15:55:29.141] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Jul2025 15:55:29.142] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Jul2025 15:55:29.142] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Jul2025 15:55:29.143] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Jul2025 15:55:29.228] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Jul2025 15:55:29.730] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
+[07Jul2025 15:55:30.229] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 61%
+[07Jul2025 15:55:30.636] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5908 ms
+[07Jul2025 15:55:30.637] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (11.728s)! For help, type "help"
+[07Jul2025 15:55:30.724] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[07Jul2025 15:55:30.734] [Server thread/INFO] [mcp.mobius.waila.config.PluginConfig/]: [WTHIT] Plugin config reloaded
+[07Jul2025 15:55:30.780] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: smoothchunk.json
+[07Jul2025 15:55:30.791] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[07Jul2025 15:55:30.803] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice host is 'change-columnists.gl.at.ply.gg'
+[07Jul2025 15:55:30.805] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 2364
+[07Jul2025 15:55:31.162] [Server thread/INFO] [LodWorldGen/]: DH TerraFirmaCraft detection: false
+[07Jul2025 15:55:31.166] [Server thread/INFO] [LodWorldGen/]: ================WORLD_GEN_STEP_INITING=============
+[07Jul2025 15:55:31.167] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/]: Batch Chunk Generator initialized
+[07Jul2025 15:55:31.171] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Creating world gen queue
+[07Jul2025 15:55:31.172] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Created world gen queue
+[07Jul2025 15:55:31.172] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.GeneratedFullDataSourceProvider/]: Set world gen queue for level [deeperdarker:otherside].
+[07Jul2025 15:55:31.173] [Server thread/INFO] [LodWorldGen/]: ================WORLD_GEN_STEP_INITING=============
+[07Jul2025 15:55:31.173] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/]: Batch Chunk Generator initialized
+[07Jul2025 15:55:31.173] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Creating world gen queue
+[07Jul2025 15:55:31.173] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Created world gen queue
+[07Jul2025 15:55:31.174] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.GeneratedFullDataSourceProvider/]: Set world gen queue for level [minecraft:overworld].
+[07Jul2025 15:55:31.175] [Server thread/INFO] [LodWorldGen/]: ================WORLD_GEN_STEP_INITING=============
+[07Jul2025 15:55:31.175] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/]: Batch Chunk Generator initialized
+[07Jul2025 15:55:31.175] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Creating world gen queue
+[07Jul2025 15:55:31.175] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Created world gen queue
+[07Jul2025 15:55:31.176] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.GeneratedFullDataSourceProvider/]: Set world gen queue for level [the_bumblezone:the_bumblezone].
+[07Jul2025 15:55:31.176] [Server thread/INFO] [LodWorldGen/]: ================WORLD_GEN_STEP_INITING=============
+[07Jul2025 15:55:31.176] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/]: Batch Chunk Generator initialized
+[07Jul2025 15:55:31.176] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Creating world gen queue
+[07Jul2025 15:55:31.176] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Created world gen queue
+[07Jul2025 15:55:31.177] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.GeneratedFullDataSourceProvider/]: Set world gen queue for level [minecraft:the_nether].
+[07Jul2025 15:55:31.177] [Server thread/INFO] [LodWorldGen/]: ================WORLD_GEN_STEP_INITING=============
+[07Jul2025 15:55:31.177] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/]: Batch Chunk Generator initialized
+[07Jul2025 15:55:31.178] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Creating world gen queue
+[07Jul2025 15:55:31.178] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Created world gen queue
+[07Jul2025 15:55:31.178] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.GeneratedFullDataSourceProvider/]: Set world gen queue for level [minecraft:the_end].
+[07Jul2025 15:59:56.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[07Jul2025 15:59:56.812] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/]: Unloading level [deeperdarker:otherside].
+[07Jul2025 15:59:56.813] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing world gen queue
+[07Jul2025 15:59:56.814] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing WorldGenerationQueue...
+[07Jul2025 15:59:56.815] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Awaiting world generator thread pool termination...
+[07Jul2025 15:59:56.816] [Server thread/WARN] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
+[07Jul2025 15:59:56.816] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/]: BatchGenerator shutting down...
+[07Jul2025 15:59:56.816] [Server thread/INFO] [LodWorldGen/]: BatchGenerationEnvironment shutting down...
+[07Jul2025 15:59:56.816] [Server thread/INFO] [LodWorldGen/]: Canceling in progress generation event futures...
+[07Jul2025 15:59:56.817] [Server thread/INFO] [LodWorldGen/]: BatchGenerationEnvironment shutdown complete.
+[07Jul2025 15:59:56.817] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Finished closing WorldGenerationQueue
+[07Jul2025 15:59:57.021] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{3akfin2umtlgu@deeperdarker:otherside}].
+[07Jul2025 15:59:57.021] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{3akfin2umtlgu@deeperdarker:otherside}].
+[07Jul2025 15:59:57.022] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Closing database connection: [jdbc:dh_sqlite:./world/dimensions/deeperdarker/otherside/data/DistantHorizons.sqlite]...
+[07Jul2025 15:59:57.021] [DH-Parent Update Queue [deeperdarker:otherside] Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Update thread [DH-Parent Update Queue [deeperdarker:otherside] Thread[0]] terminated.
+[07Jul2025 15:59:57.022] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Finished closing database connection: [jdbc:dh_sqlite:./world/dimensions/deeperdarker/otherside/data/DistantHorizons.sqlite]
+[07Jul2025 15:59:57.023] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@deeperdarker:otherside}].
+[07Jul2025 15:59:57.223] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{3akfin2umtlgu@deeperdarker:otherside}].
+[07Jul2025 15:59:57.223] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{3akfin2umtlgu@deeperdarker:otherside}].
+[07Jul2025 15:59:57.224] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@deeperdarker:otherside}].
+[07Jul2025 15:59:57.224] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/]: Unloading level [minecraft:overworld].
+[07Jul2025 15:59:57.224] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing world gen queue
+[07Jul2025 15:59:57.224] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing WorldGenerationQueue...
+[07Jul2025 15:59:57.224] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Awaiting world generator thread pool termination...
+[07Jul2025 15:59:57.224] [Server thread/WARN] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
+[07Jul2025 15:59:57.224] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/]: BatchGenerator shutting down...
+[07Jul2025 15:59:57.225] [Server thread/INFO] [LodWorldGen/]: BatchGenerationEnvironment shutting down...
+[07Jul2025 15:59:57.225] [Server thread/INFO] [LodWorldGen/]: Canceling in progress generation event futures...
+[07Jul2025 15:59:57.225] [Server thread/INFO] [LodWorldGen/]: BatchGenerationEnvironment shutdown complete.
+[07Jul2025 15:59:57.225] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Finished closing WorldGenerationQueue
+[07Jul2025 15:59:57.425] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{3akfin2umtlgu@minecraft:overworld}].
+[07Jul2025 15:59:57.426] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{3akfin2umtlgu@minecraft:overworld}].
+[07Jul2025 15:59:57.426] [DH-Parent Update Queue [minecraft:overworld] Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Update thread [DH-Parent Update Queue [minecraft:overworld] Thread[0]] terminated.
+[07Jul2025 15:59:57.426] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Closing database connection: [jdbc:dh_sqlite:./world/data/DistantHorizons.sqlite]...
+[07Jul2025 15:59:57.427] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Finished closing database connection: [jdbc:dh_sqlite:./world/data/DistantHorizons.sqlite]
+[07Jul2025 15:59:57.427] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}].
+[07Jul2025 15:59:57.627] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{3akfin2umtlgu@minecraft:overworld}].
+[07Jul2025 15:59:57.628] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{3akfin2umtlgu@minecraft:overworld}].
+[07Jul2025 15:59:57.628] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}].
+[07Jul2025 15:59:57.628] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/]: Unloading level [the_bumblezone:the_bumblezone].
+[07Jul2025 15:59:57.628] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing world gen queue
+[07Jul2025 15:59:57.628] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing WorldGenerationQueue...
+[07Jul2025 15:59:57.629] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Awaiting world generator thread pool termination...
+[07Jul2025 15:59:57.629] [Server thread/WARN] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
+[07Jul2025 15:59:57.629] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/]: BatchGenerator shutting down...
+[07Jul2025 15:59:57.629] [Server thread/INFO] [LodWorldGen/]: BatchGenerationEnvironment shutting down...
+[07Jul2025 15:59:57.629] [Server thread/INFO] [LodWorldGen/]: Canceling in progress generation event futures...
+[07Jul2025 15:59:57.629] [Server thread/INFO] [LodWorldGen/]: BatchGenerationEnvironment shutdown complete.
+[07Jul2025 15:59:57.630] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Finished closing WorldGenerationQueue
+[07Jul2025 15:59:57.830] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{3akfin2umtlgu@the_bumblezone:the_bumblezone}].
+[07Jul2025 15:59:57.830] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{3akfin2umtlgu@the_bumblezone:the_bumblezone}].
+[07Jul2025 15:59:57.831] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Closing database connection: [jdbc:dh_sqlite:./world/dimensions/the_bumblezone/the_bumblezone/data/DistantHorizons.sqlite]...
+[07Jul2025 15:59:57.831] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Finished closing database connection: [jdbc:dh_sqlite:./world/dimensions/the_bumblezone/the_bumblezone/data/DistantHorizons.sqlite]
+[07Jul2025 15:59:57.831] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@the_bumblezone:the_bumblezone}].
+[07Jul2025 15:59:57.831] [DH-Parent Update Queue [the_bumblezone:the_bumblezone] Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Update thread [DH-Parent Update Queue [the_bumblezone:the_bumblezone] Thread[0]] terminated.
+[07Jul2025 15:59:58.031] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{3akfin2umtlgu@the_bumblezone:the_bumblezone}].
+[07Jul2025 15:59:58.032] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{3akfin2umtlgu@the_bumblezone:the_bumblezone}].
+[07Jul2025 15:59:58.032] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@the_bumblezone:the_bumblezone}].
+[07Jul2025 15:59:58.032] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/]: Unloading level [minecraft:the_nether].
+[07Jul2025 15:59:58.033] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing world gen queue
+[07Jul2025 15:59:58.033] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing WorldGenerationQueue...
+[07Jul2025 15:59:58.033] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Awaiting world generator thread pool termination...
+[07Jul2025 15:59:58.033] [Server thread/WARN] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
+[07Jul2025 15:59:58.033] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/]: BatchGenerator shutting down...
+[07Jul2025 15:59:58.033] [Server thread/INFO] [LodWorldGen/]: BatchGenerationEnvironment shutting down...
+[07Jul2025 15:59:58.033] [Server thread/INFO] [LodWorldGen/]: Canceling in progress generation event futures...
+[07Jul2025 15:59:58.034] [Server thread/INFO] [LodWorldGen/]: BatchGenerationEnvironment shutdown complete.
+[07Jul2025 15:59:58.034] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Finished closing WorldGenerationQueue
+[07Jul2025 15:59:58.234] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{3akfin2umtlgu@minecraft:the_nether}].
+[07Jul2025 15:59:58.234] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{3akfin2umtlgu@minecraft:the_nether}].
+[07Jul2025 15:59:58.235] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Closing database connection: [jdbc:dh_sqlite:./world/DIM-1/data/DistantHorizons.sqlite]...
+[07Jul2025 15:59:58.235] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Finished closing database connection: [jdbc:dh_sqlite:./world/DIM-1/data/DistantHorizons.sqlite]
+[07Jul2025 15:59:58.235] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}].
+[07Jul2025 15:59:58.235] [DH-Parent Update Queue [minecraft:the_nether] Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Update thread [DH-Parent Update Queue [minecraft:the_nether] Thread[0]] terminated.
+[07Jul2025 15:59:58.435] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{3akfin2umtlgu@minecraft:the_nether}].
+[07Jul2025 15:59:58.436] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{3akfin2umtlgu@minecraft:the_nether}].
+[07Jul2025 15:59:58.436] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}].
+[07Jul2025 15:59:58.436] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/]: Unloading level [minecraft:the_end].
+[07Jul2025 15:59:58.436] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing world gen queue
+[07Jul2025 15:59:58.437] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing WorldGenerationQueue...
+[07Jul2025 15:59:58.437] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Awaiting world generator thread pool termination...
+[07Jul2025 15:59:58.437] [Server thread/WARN] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
+[07Jul2025 15:59:58.437] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/]: BatchGenerator shutting down...
+[07Jul2025 15:59:58.437] [Server thread/INFO] [LodWorldGen/]: BatchGenerationEnvironment shutting down...
+[07Jul2025 15:59:58.437] [Server thread/INFO] [LodWorldGen/]: Canceling in progress generation event futures...
+[07Jul2025 15:59:58.437] [Server thread/INFO] [LodWorldGen/]: BatchGenerationEnvironment shutdown complete.
+[07Jul2025 15:59:58.437] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Finished closing WorldGenerationQueue
+[07Jul2025 15:59:58.638] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{3akfin2umtlgu@minecraft:the_end}].
+[07Jul2025 15:59:58.638] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{3akfin2umtlgu@minecraft:the_end}].
+[07Jul2025 15:59:58.638] [DH-Parent Update Queue [minecraft:the_end] Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Update thread [DH-Parent Update Queue [minecraft:the_end] Thread[0]] terminated.
+[07Jul2025 15:59:58.639] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Closing database connection: [jdbc:dh_sqlite:./world/DIM1/data/DistantHorizons.sqlite]...
+[07Jul2025 15:59:58.639] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Finished closing database connection: [jdbc:dh_sqlite:./world/DIM1/data/DistantHorizons.sqlite]
+[07Jul2025 15:59:58.639] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}].
+[07Jul2025 15:59:58.839] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{3akfin2umtlgu@minecraft:the_end}].
+[07Jul2025 15:59:58.840] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{3akfin2umtlgu@minecraft:the_end}].
+[07Jul2025 15:59:58.840] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}].
+[07Jul2025 15:59:58.840] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/]: Closed DhWorld of type [SERVER_ONLY].
+[07Jul2025 15:59:58.840] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/]: Closed DhWorld of type [SERVER_ONLY].
+[07Jul2025 15:59:58.840] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.util.threading.PriorityTaskPicker/]: Shutting down PriorityTaskPicker thread pool...
+[07Jul2025 15:59:58.842] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Closing all [0] database connections...
+[07Jul2025 15:59:59.252] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[07Jul2025 15:59:59.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[07Jul2025 15:59:59.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[07Jul2025 16:00:00.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[07Jul2025 16:00:01.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_bumblezone:the_bumblezone
+[07Jul2025 16:00:01.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[07Jul2025 16:00:01.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[07Jul2025 16:00:01.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/deeperdarker:otherside
+[07Jul2025 16:00:01.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07Jul2025 16:00:01.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_bumblezone): All chunks are saved
+[07Jul2025 16:00:01.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07Jul2025 16:00:01.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07Jul2025 16:00:01.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
+[07Jul2025 16:00:01.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07Jul2025 16:00:01.144] [Server thread/INFO] [Framework/]: Unloading server configs...
+[07Jul2025 16:00:01.145] [Server thread/INFO] [Framework/]: Sending config unload event for goblintraders-entities.toml
+[07Jul2025 16:00:01.147] [Server thread/INFO] [Framework/]: Finished unloading server configs
+[07Jul2025 16:00:01.153] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
