@@ -4933,10 +4933,11 @@
     "criteria": {
       "minecraft:crimson_forest": "2025-07-04 05:00:34 +0000",
       "minecraft:nether_wastes": "2025-07-04 05:02:05 +0000",
+      "minecraft:soul_sand_valley": "2025-07-07 16:48:51 +0000",
       "minecraft:warped_forest": "2025-07-03 17:58:58 +0000",
       "minecraft:basalt_deltas": "2025-07-04 16:31:40 +0000"
     },
-    "done": false
+    "done": true
   },
   "securitycraft:recipes/building_blocks/reinforced_granite": {
     "criteria": {
@@ -5463,6 +5464,42 @@
   "deeperdarker:recipes/transportation/bloom_boat": {
     "criteria": {
       "in_water": "2025-07-05 15:13:10 +0000"
+    },
+    "done": true
+  },
+  "incendium:root": {
+    "criteria": {
+      "requirement": "2025-07-07 16:47:24 +0000"
+    },
+    "done": true
+  },
+  "nova_structures:nether/find_piglins": {
+    "criteria": {
+      "nova_structures:piglin_camp": "2025-07-07 16:52:58 +0000"
+    },
+    "done": false
+  },
+  "incendium:misc/root": {
+    "criteria": {
+      "incendium:infernal_dunes": "2025-07-07 16:48:52 +0000"
+    },
+    "done": true
+  },
+  "incendium:misc/soul_searcher": {
+    "criteria": {
+      "incendium:infernal_dunes": "2025-07-07 16:48:52 +0000"
+    },
+    "done": false
+  },
+  "incendium:infernal_dunes/root": {
+    "criteria": {
+      "incendium:infernal_dunes": "2025-07-07 16:48:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2025-07-07 16:54:31 +0000"
     },
     "done": true
   },

@@ -545,3 +545,68 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [07Jul2025 16:33:52.470] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Lu_dev (18)
 [07Jul2025 16:33:52.471] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Lu_dev
 [07Jul2025 16:35:18.711] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -0.5355718113169701,2.4866906020225983,9.776003591831682
+[07Jul2025 16:46:14.391] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Sele207[/127.71.179.52:46101] logged in with entity id 7170 at (97.84445208325398, 84.0, 564.9276059144039)
+[07Jul2025 16:46:14.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sele207 joined the game
+[07Jul2025 16:46:14.505] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.api.internal.ServerApi/]: Player [Sele207] joined.
+[07Jul2025 16:46:16.734] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Sele207 (18)
+[07Jul2025 16:46:16.734] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Sele207
+[07Jul2025 16:47:24.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lu_dev has made the advancement [Incendium]
+[07Jul2025 16:47:24.713] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.api.internal.ServerApi/]: Player [Lu_dev] changed level: [3akfin2umtlgu@minecraft:overworld] -> [3akfin2umtlgu@minecraft:the_nether].
+[07Jul2025 16:47:29.184] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4471ms or 89 ticks behind
+[07Jul2025 16:48:51.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lu_dev has completed the challenge [Hot Tourist Destinations]
+[07Jul2025 16:48:52.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lu_dev has made the advancement [Darude - Firestorm]
+[07Jul2025 16:48:52.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lu_dev has made the advancement [Strange Biomes]
+[07Jul2025 16:51:59.741] [Server thread/WARN] [tombstone/]: The death event of the player Lu_dev was canceled by another mod
+[07Jul2025 16:51:59.753] [Server thread/INFO] [tombstone/]: The player Lu_dev has successfully been saved
+[07Jul2025 16:52:06.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lu_dev was slain by Nightmare
+[07Jul2025 16:52:16.057] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.api.internal.ServerApi/]: Player [Lu_dev] changed level: [3akfin2umtlgu@minecraft:overworld] -> [3akfin2umtlgu@minecraft:the_nether].
+[07Jul2025 16:52:18.815] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3152ms or 63 ticks behind
+[07Jul2025 16:52:30.143] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! 2.3971539800501205,1.7827955144851728,-18.34261704830618
+[07Jul2025 16:52:38.004] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! 15.492876233250172,3.2058685582471753,-8.799048111290745
+[07Jul2025 16:52:39.039] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! 15.372665082093931,3.4111329853031833,-9.316656271824513
+[07Jul2025 16:52:41.386] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2023ms or 40 ticks behind
+[07Jul2025 16:52:42.699] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -6.313475012285494,-0.42541251888064835,-16.898622816404952
+[07Jul2025 16:52:43.750] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -14.481173054387682,-4.548683818264351,-10.610560579874061
+[07Jul2025 16:52:44.714] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -16.016319538540756,-3.2361567758987775,-8.537691771614561
+[07Jul2025 16:52:46.161] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -15.894183969177789,-2.380835908852916,-10.192278328759642
+[07Jul2025 16:52:51.640] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! 17.705247552096694,0.8696512583704035,-4.480179367143421
+[07Jul2025 16:54:31.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lu_dev has made the advancement [Those Were the Days]
+[07Jul2025 16:54:38.494] [Server thread/WARN] [tombstone/]: The death event of the player Lu_dev was canceled by another mod
+[07Jul2025 16:54:38.498] [Server thread/INFO] [tombstone/]: The player Lu_dev has successfully been saved
+[07Jul2025 16:54:41.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lu_dev tried to swim in lava
+[07Jul2025 16:54:41.506] [Server thread/INFO] [tombstone/]: The player Lu_dev has successfully been saved
+[07Jul2025 16:54:50.235] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.api.internal.ServerApi/]: Player [Lu_dev] changed level: [3akfin2umtlgu@minecraft:overworld] -> [3akfin2umtlgu@minecraft:the_nether].
+[07Jul2025 16:54:53.036] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3173ms or 63 ticks behind
+[07Jul2025 16:55:37.437] [Server thread/WARN] [tombstone/]: The death event of the player Lu_dev was canceled by another mod
+[07Jul2025 16:55:37.442] [Server thread/INFO] [tombstone/]: The player Lu_dev has successfully been saved
+[07Jul2025 16:55:49.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lu_dev was slain by Piglin Brute
+[07Jul2025 16:55:57.904] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.api.internal.ServerApi/]: Player [Lu_dev] changed level: [3akfin2umtlgu@minecraft:overworld] -> [3akfin2umtlgu@minecraft:the_nether].
+[07Jul2025 16:55:59.778] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2115ms or 42 ticks behind
+[07Jul2025 16:56:53.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lu_dev has made the advancement [War Pigs]
+[07Jul2025 16:57:05.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lu_dev has made the advancement [Hidden in the Depths]
+[07Jul2025 16:57:14.391] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[07Jul2025 16:57:14.495] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[07Jul2025 16:57:14.587] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[07Jul2025 16:57:14.692] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[07Jul2025 16:57:14.792] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[07Jul2025 16:57:14.895] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[07Jul2025 16:57:14.993] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[07Jul2025 16:57:15.090] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[07Jul2025 16:57:15.186] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[07Jul2025 16:57:15.287] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[07Jul2025 16:57:15.383] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[07Jul2025 16:57:15.493] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[07Jul2025 16:57:15.616] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[07Jul2025 16:57:15.690] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[07Jul2025 16:57:15.792] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[07Jul2025 16:57:15.888] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[07Jul2025 16:57:15.990] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[07Jul2025 16:57:16.092] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[07Jul2025 16:57:16.192] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[07Jul2025 16:57:16.286] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[07Jul2025 16:57:16.388] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[07Jul2025 16:57:18.289] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[07Jul2025 16:57:18.390] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[07Jul2025 16:58:31.980] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -17.980145258612197,-2.6863132705436357,-0.23596799345932595
+[07Jul2025 16:58:33.867] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2104ms or 42 ticks behind
+[07Jul2025 16:58:55.124] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6261ms or 125 ticks behind
