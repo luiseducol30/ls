@@ -610,3 +610,56 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [07Jul2025 16:58:31.980] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lu_dev moved too quickly! -17.980145258612197,-2.6863132705436357,-0.23596799345932595
 [07Jul2025 16:58:33.867] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2104ms or 42 ticks behind
 [07Jul2025 16:58:55.124] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6261ms or 125 ticks behind
+[07Jul2025 16:59:32.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lu_dev has made the advancement [A Terrible Fortress]
+[07Jul2025 17:00:38.943] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/25974, l='ServerLevel[world]', x=750.59, y=100.57, z=-725.43] died: Restless Spirit starved to death
+[07Jul2025 17:01:01.289] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/26222, l='ServerLevel[world]', x=691.22, y=96.81, z=-747.26] died: Restless Spirit starved to death
+[07Jul2025 17:01:45.902] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/26785, l='ServerLevel[world]', x=723.76, y=38.96, z=-716.64] died: Restless Spirit starved to death
+[07Jul2025 17:01:57.083] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/27039, l='ServerLevel[world]', x=698.58, y=116.95, z=-703.94] died: Restless Spirit starved to death
+[07Jul2025 17:02:06.689] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/27151, l='ServerLevel[world]', x=711.27, y=101.51, z=-709.88] died: Restless Spirit starved to death
+[07Jul2025 17:03:06.440] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[07Jul2025 17:03:55.944] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/29734, l='ServerLevel[world]', x=730.68, y=89.17, z=-724.10] died: Restless Spirit starved to death
+[07Jul2025 17:04:50.939] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/31513, l='ServerLevel[world]', x=720.10, y=94.59, z=-711.35] died: Restless Spirit starved to death
+[07Jul2025 17:05:13.495] [Server thread/WARN] [tombstone/]: The death event of the player Lu_dev was canceled by another mod
+[07Jul2025 17:05:13.497] [Server thread/INFO] [tombstone/]: The player Lu_dev has successfully been saved
+[07Jul2025 17:05:25.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lu_dev burned to death
+[07Jul2025 17:05:34.037] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.api.internal.ServerApi/]: Player [Lu_dev] changed level: [3akfin2umtlgu@minecraft:overworld] -> [3akfin2umtlgu@minecraft:the_nether].
+[07Jul2025 17:05:36.457] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2693ms or 53 ticks behind
+[07Jul2025 17:06:04.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lu_dev has completed the challenge [Subspace Bubble]
+[07Jul2025 17:06:04.832] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.api.internal.ServerApi/]: Player [Lu_dev] changed level: [3akfin2umtlgu@minecraft:the_nether] -> [3akfin2umtlgu@minecraft:overworld].
+[07Jul2025 17:06:12.733] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 15220ms or 304 ticks behind
+[07Jul2025 17:06:30.436] [DH-PriorityTaskPicker Thread[2]/ERROR] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/]: Error updating pos [6*86,-78], error: java.lang.ArrayIndexOutOfBoundsException: Index 471 out of bounds for length 301
+java.lang.RuntimeException: java.lang.ArrayIndexOutOfBoundsException: Index 471 out of bounds for length 301
+	at com.seibel.distanthorizons.core.util.FullDataPointUtil.remap(FullDataPointUtil.java:186) ~[DistantHorizons-fabric-forge-2.3.2-b-1.20.1.jar%23210!/:?]
+	at com.seibel.distanthorizons.core.dataObjects.fullData.sources.FullDataSourceV2.remapDataColumn(FullDataSourceV2.java:794) ~[DistantHorizons-fabric-forge-2.3.2-b-1.20.1.jar%23210!/:?]
+	at com.seibel.distanthorizons.core.dataObjects.fullData.sources.FullDataSourceV2.updateFromSameDetailLevel(FullDataSourceV2.java:442) ~[DistantHorizons-fabric-forge-2.3.2-b-1.20.1.jar%23210!/:?]
+	at com.seibel.distanthorizons.core.dataObjects.fullData.sources.FullDataSourceV2.update(FullDataSourceV2.java:308) ~[DistantHorizons-fabric-forge-2.3.2-b-1.20.1.jar%23210!/:?]
+	at com.seibel.distanthorizons.core.dataObjects.fullData.sources.FullDataSourceV2.update(FullDataSourceV2.java:288) ~[DistantHorizons-fabric-forge-2.3.2-b-1.20.1.jar%23210!/:?]
+	at com.seibel.distanthorizons.core.file.AbstractDataSourceHandler.updateDataSourceAtPos(AbstractDataSourceHandler.java:261) ~[DistantHorizons-fabric-forge-2.3.2-b-1.20.1.jar%23210!/:?]
+	at com.seibel.distanthorizons.core.file.fullDatafile.GeneratedFullDataSourceProvider.updateDataSourceAtPos(GeneratedFullDataSourceProvider.java:288) ~[DistantHorizons-fabric-forge-2.3.2-b-1.20.1.jar%23210!/:?]
+	at com.seibel.distanthorizons.core.file.AbstractDataSourceHandler.lambda$updateDataSourceAsync$1(AbstractDataSourceHandler.java:214) ~[DistantHorizons-fabric-forge-2.3.2-b-1.20.1.jar%23210!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at com.seibel.distanthorizons.core.util.threading.PriorityTaskPicker$TrackedRunnable.run(PriorityTaskPicker.java:203) ~[DistantHorizons-fabric-forge-2.3.2-b-1.20.1.jar%23210!/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 471 out of bounds for length 301
+	at com.seibel.distanthorizons.core.util.FullDataPointUtil.remap(FullDataPointUtil.java:176) ~[DistantHorizons-fabric-forge-2.3.2-b-1.20.1.jar%23210!/:?]
+	... 12 more
+[07Jul2025 17:06:30.531] [DH-PriorityTaskPicker Thread[2]/ERROR] [DistantHorizons-com.seibel.distanthorizons.core.pooling.PhantomArrayListPool/]: Unable to close Phantom Array, error: [Null phantom checkout, object is being closed multiple times.].
+java.lang.IllegalArgumentException: Null phantom checkout, object is being closed multiple times.
+	at com.seibel.distanthorizons.core.pooling.PhantomArrayListPool.returnCheckout(PhantomArrayListPool.java:399) ~[DistantHorizons-fabric-forge-2.3.2-b-1.20.1.jar%23210!/:?]
+	at com.seibel.distanthorizons.core.pooling.PhantomArrayListPool.returnParentPhantomRef(PhantomArrayListPool.java:388) ~[DistantHorizons-fabric-forge-2.3.2-b-1.20.1.jar%23210!/:?]
+	at com.seibel.distanthorizons.core.pooling.PhantomArrayListParent.close(PhantomArrayListParent.java:60) ~[DistantHorizons-fabric-forge-2.3.2-b-1.20.1.jar%23210!/:?]
+	at com.seibel.distanthorizons.core.file.fullDatafile.DelayedFullDataSourceSaveCache.lambda$handleDataSourceRemoval$1(DelayedFullDataSourceSaveCache.java:126) ~[DistantHorizons-fabric-forge-2.3.2-b-1.20.1.jar%23210!/:?]
+	at java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1810) ~[?:?]
+	at com.seibel.distanthorizons.core.util.threading.PriorityTaskPicker$TrackedRunnable.run(PriorityTaskPicker.java:203) ~[DistantHorizons-fabric-forge-2.3.2-b-1.20.1.jar%23210!/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[07Jul2025 17:06:52.524] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 24811ms or 496 ticks behind
+[07Jul2025 17:07:14.685] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3372ms or 67 ticks behind
+[07Jul2025 17:07:34.573] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4910ms or 98 ticks behind
+[07Jul2025 17:08:44.553] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2090ms or 41 ticks behind

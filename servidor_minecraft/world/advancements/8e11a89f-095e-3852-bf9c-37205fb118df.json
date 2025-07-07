@@ -5166,9 +5166,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2025-07-07 17:01:55 +0000"
+    },
+    "done": true
+  },
   "deeperdarker:recipes/transportation/soul_elytra": {
     "criteria": {
       "has_elytra": "2025-07-07 16:46:14 +0000"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/void_lily": {
+    "criteria": {
+      "has_amethyst_shard": "2025-07-07 17:02:31 +0000"
     },
     "done": true
   },
@@ -5196,6 +5208,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/magenta_glazed_terracotta": {
+    "criteria": {
+      "has_magenta_terracotta": "2025-07-07 17:02:04 +0000"
+    },
+    "done": true
+  },
   "the_bumblezone:root": {
     "criteria": {
       "instant_granted": "2025-07-07 16:46:14 +0000"
@@ -5214,11 +5232,29 @@
     },
     "done": false
   },
+  "comforts:hammock_gray": {
+    "criteria": {
+      "has_gray_wool": "2025-07-07 16:56:48 +0000"
+    },
+    "done": true
+  },
   "incendium:technical/scroll_of_returning": {
     "criteria": {
       "log_spam_fixer": "2025-07-07 16:46:15 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
+    "criteria": {
+      "has_azure_bluet": "2025-07-07 17:04:06 +0000"
+    },
+    "done": true
+  },
+  "comforts:sleeping_bag_gray": {
+    "criteria": {
+      "has_gray_wool": "2025-07-07 16:56:48 +0000"
+    },
+    "done": true
   },
   "incendium:technical/using/ragnarok": {
     "criteria": {
