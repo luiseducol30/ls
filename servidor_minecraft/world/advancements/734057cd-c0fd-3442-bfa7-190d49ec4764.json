@@ -30,6 +30,7 @@
       "minecraft:lukewarm_ocean": "2025-06-19 02:47:35 +0000",
       "minecraft:stony_shore": "2025-06-17 14:06:06 +0000",
       "minecraft:snowy_taiga": "2025-07-04 22:32:13 +0000",
+      "minecraft:dripstone_caves": "2025-07-07 17:07:36 +0000",
       "minecraft:jagged_peaks": "2025-06-17 14:48:00 +0000",
       "minecraft:forest": "2025-06-16 17:40:26 +0000",
       "minecraft:lush_caves": "2025-06-19 16:21:28 +0000",
@@ -2774,6 +2775,7 @@
   },
   "biomeswevegone:biomeswevegone/adventure/oh_the_biomes_weve_gone": {
     "criteria": {
+      "biomeswevegone:redwood_thicket": "2025-07-07 17:27:32 +0000",
       "biomeswevegone:cika_woods": "2025-07-02 17:29:59 +0000",
       "biomeswevegone:araucaria_savanna": "2025-06-18 20:48:52 +0000",
       "biomeswevegone:rugged_badlands": "2025-07-04 19:01:20 +0000",
@@ -2785,6 +2787,7 @@
       "biomeswevegone:maple_taiga": "2025-07-04 22:33:14 +0000",
       "biomeswevegone:orchard": "2025-06-17 14:47:37 +0000",
       "biomeswevegone:ironwood_gour": "2025-06-19 14:45:25 +0000",
+      "biomeswevegone:amaranth_grassland": "2025-07-07 17:27:26 +0000",
       "biomeswevegone:prairie": "2025-06-19 02:15:34 +0000",
       "biomeswevegone:dacite_ridges": "2025-07-04 22:33:10 +0000",
       "biomeswevegone:skyrise_vale": "2025-07-04 22:33:02 +0000",
@@ -5469,6 +5472,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_bricks": {
+    "criteria": {
+      "has_the_recipe": "2025-07-07 17:09:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
     "criteria": {
       "has_polished_blackstone_bricks": "2025-07-07 16:57:31 +0000"
@@ -5577,6 +5586,12 @@
     },
     "done": true
   },
+  "nova_structures:adventure/find_all_illager_structures": {
+    "criteria": {
+      "illager_camp": "2025-07-07 17:25:36 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/nether_brick_stairs": {
     "criteria": {
       "has_nether_bricks": "2025-07-07 17:00:20 +0000"
@@ -5619,6 +5634,12 @@
     },
     "done": true
   },
+  "the_bumblezone:teleportation/is_near_beehive": {
+    "criteria": {
+      "is_near_beehive": "2025-07-07 17:15:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
     "criteria": {
       "has_polished_blackstone_bricks": "2025-07-07 16:57:31 +0000"
@@ -5640,6 +5661,12 @@
   "minecraft:nether/find_bastion": {
     "criteria": {
       "bastion": "2025-07-07 16:54:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/fast_travel": {
+    "criteria": {
+      "travelled": "2025-07-07 17:06:04 +0000"
     },
     "done": true
   },
